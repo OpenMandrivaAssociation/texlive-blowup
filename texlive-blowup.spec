@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/blowup
+# catalog-date 2009-06-04 13:48:19 +0200
+# catalog-license lppl
+# catalog-version 0.1j
 Name:		texlive-blowup
 Version:	0.1j
 Release:	1
@@ -51,6 +57,7 @@ more accurate and user-friendly.
 #- source
 %doc %{_texmfdistdir}/source/latex/blowup/blowup.dtx
 %doc %{_texmfdistdir}/source/latex/blowup/blowup.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ more accurate and user-friendly.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
