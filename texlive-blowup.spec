@@ -6,7 +6,7 @@
 # catalog-version 0.1j
 Name:		texlive-blowup
 Version:	0.1j
-Release:	3
+Release:	4
 Summary:	Upscale or downscale all pages of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/blowup
