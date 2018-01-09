@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/blowup
-# catalog-date 2009-06-04 13:48:19 +0200
-# catalog-license lppl
-# catalog-version 0.1j
 Name:		texlive-blowup
-Version:	0.1j
-Release:	10
+Version:	1.0
+Release:	1
 Summary:	Upscale or downscale all pages of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/blowup
@@ -35,18 +29,10 @@ more accurate and user-friendly.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/blowup/blowup.sty
-%doc %{_texmfdistdir}/doc/latex/blowup/README
-%doc %{_texmfdistdir}/doc/latex/blowup/blowup-test0.tex
-%doc %{_texmfdistdir}/doc/latex/blowup/blowup-test1.tex
-%doc %{_texmfdistdir}/doc/latex/blowup/blowup-test2.tex
-%doc %{_texmfdistdir}/doc/latex/blowup/blowup-test3.tex
-%doc %{_texmfdistdir}/doc/latex/blowup/blowup-test4.tex
-%doc %{_texmfdistdir}/doc/latex/blowup/blowup-test5.tex
-%doc %{_texmfdistdir}/doc/latex/blowup/blowup.pdf
+%{_texmfdistdir}/tex/latex/blowup
+%doc %{_texmfdistdir}/doc/latex/blowup
 #- source
-%doc %{_texmfdistdir}/source/latex/blowup/blowup.dtx
-%doc %{_texmfdistdir}/source/latex/blowup/blowup.ins
+%doc %{_texmfdistdir}/source/latex/blowup
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,18 +43,3 @@ more accurate and user-friendly.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1j-2
-+ Revision: 749793
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1j-1
-+ Revision: 717957
-- texlive-blowup
-- texlive-blowup
-- texlive-blowup
-- texlive-blowup
-- texlive-blowup
-
