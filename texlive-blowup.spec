@@ -5,9 +5,9 @@ Summary:	Upscale or downscale all pages of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/blowup
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/blowup.r64466.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/blowup.doc.r64466.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/blowup.source.r64466.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/blowup.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/blowup.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/blowup.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
