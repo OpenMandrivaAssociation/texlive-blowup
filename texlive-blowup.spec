@@ -1,6 +1,6 @@
 Name:		texlive-blowup
-Version:	64466
-Release:	2
+Version:	67640
+Release:	1
 Summary:	Upscale or downscale all pages of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/blowup
