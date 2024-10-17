@@ -3,7 +3,7 @@ Version:	67640
 Release:	1
 Summary:	Upscale or downscale all pages of a document
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/blowup
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/blowup
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/blowup.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/blowup.doc.r%{version}.tar.xz
